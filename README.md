@@ -21,11 +21,19 @@ Overview:
     * Once Songs are found the playlist is created.
 
 
-### Users of this package:
+## Users of this package:
 -------------------------
-### ⚠️ Important: Use the Internet Archive's URL
 Since the website changes very frequently a decsion was made to use a snapshot from the Internet Archive's Wayback machine [here](https://web.archive.org/web/20201026231157/https://www.billboard.com/charts/hot-100/)
 
 To use this package you will need to create a spotify developer account and app. https://developer.spotify.com/dashboard/ 
+
 The ClientID and ClientSecret will need to be added to the constant variables through either direct assignment or environment variables. You can use a .env file with the same names as the constants in main.py for this to work. 
+
+The .env file
+-
+Contents of .env file:
+```
+SPOTIFY_CLIENT_ID=your_id
+SPOTIFY_CLIENT_SECRET=your_secret
+```
 
